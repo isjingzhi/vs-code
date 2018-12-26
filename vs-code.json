@@ -1,0 +1,77 @@
+{
+  "extensions.autoUpdate": false, // 关闭自动更新
+  "workbench.startupEditor": "newUntitledFile", // 打开进入无标题文件
+  "editor.mouseWheelZoom": true, // 鼠标 + ctrl 字体缩放
+  "editor.fontSize": 15, // 字体大小
+  "git.ignoreMissingGitWarning": true, // git警告
+  "editor.multiCursorModifier": "alt", // alt + 鼠标指针显示地址
+  "html.format.indentInnerHtml": true, // 缩进<body> <head>
+  "editor.wordWrap": "on", // 换行
+  "editor.renderWhitespace": "boundary", // 在空白字符上显示符号。
+  "editor.tabSize": 2, // tab 缩进字符
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, // 定义函数参数括号前的空格处理方式。
+  "workbench.iconTheme": "vscode-great-icons", //图标
+  "css.validate": false,
+  "less.validate": false,
+  "workbench.activityBar.visible": true, // 控制工作台中活动栏的可见性。
+  "workbench.statusBar.visible": true, // 控制工作台底部状态栏的可见性。
+  "files.associations": {
+    "*.vue": "vue",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "window.zoomLevel": 0,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "emmet.triggerExpansionOnTab": true, // tab 键补全 ==> vue下多数使用
+  // 控制编辑器是否自动格式化粘贴的内容。格式化程序必须可用，并且能针对文档中的某一范围进行格式化。
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false, // 自动保存后是否格式化
+  "editor.formatOnType": true,
+  //配置eslint
+  "eslint.autoFixOnSave": true,
+  "editor.fontFamily": "Consolas",
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.options": {
+    "plugins": ["html"]
+  },
+  "explorer.confirmDelete": false,
+  // gitlens (git代码管理)
+  // "gitlens.advanced.messages": {
+  //   "suppressCommitHasNoPreviousCommitWarning": true,
+  //   "suppressCommitNotFoundWarning": true,
+  //   "suppressFileNotUnderSourceControlWarning": true,
+  //   "suppressGitVersionWarning": true,
+  //   "suppressLineUncommittedWarning": true,
+  //   "suppressNoRepositoryWarning": true,
+  //   "suppressResultsExplorerNotice": true,
+  //   "suppressShowKeyBindingsNotice": true
+  // },
+  //右键格式化文件
+  // "vetur.format.defaultFormatter.html": "js-beautify-html",
+  // "vetur.format.defaultFormatter.js": "vscode-typescript",
+  // "vetur.format.defaultFormatter.scss": "prettier",
+  // "vetur.validation.template": true,
+  // "vetur.format.defaultFormatterOptions": {
+  //   "js-beautify-html": {
+  //     "wrap_attributes": "force-aligned"
+  //     // #vue组件中html代码格式化样式
+  //   }
+  // },
+}
